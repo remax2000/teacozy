@@ -1,0 +1,155 @@
+body{
+	background-color: black;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.8;
+	text-align: center;
+	margin: 0;
+}
+
+header{
+	border-bottom: 1px solid seashell;
+	display: flex;
+	align-items: center;
+	height: 69px;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	background-color: black;
+	top: 0;
+}
+
+header img{
+	height: 50px;
+	padding-left: 10px;
+}
+
+nav{
+	text-align: right;
+	flex-grow: 1;
+
+}
+
+nav span{
+	padding: 20px 10px;
+	text-decoration: underline;
+	color: white;
+}
+
+h2,
+h3,
+h4{
+	margin: 0;
+	padding: 10px;
+	background-color: black;
+	width: 100%;
+}
+
+nav a{
+	color: seashell;
+}
+
+.main{
+	display: block;
+	width: 1200px;
+	margin: 0 auto;
+
+	position: relative;
+	top: 69px;
+	z-index: 5;
+
+
+}
+
+.mission{
+	background-image: url("../img/img-mission-background.jpg");
+	width: 1200px;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.featured{
+	padding-top: 70px;
+	width: 1000px;
+	height: 700px;
+	margin: auto;
+}
+
+.teas{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.item{
+	display: block;
+	padding: 5px;
+}
+
+.locations{
+	background-image: url("../img/img-locations-background.jpg");
+	height: 500px;
+	padding-bottom: 60px;
+	padding-top: 70px;
+}
+
+.locations h2{
+	background-color: initial;
+}
+
+.teas img{
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+}
+
+.item span{
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+}
+
+.cities{
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+}
+
+.city{
+	width: 300px;
+	background-color: black;
+	margin: 5px 20px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 280px;
+	opacity: 1;
+}
+
+.city h3{
+	width: initial;
+}
+
+.city span{
+	margin: 22px;
+}
+
+.contact{
+	height: 200px;
+
+}
+
+.footer{
+	text-align: left;
+	padding-left: 20px;
+	width: initial;
+	z-index: 10;
+	position: relative;
+	top: 30px;
+}
